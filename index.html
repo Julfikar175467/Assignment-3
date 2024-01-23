@@ -1,0 +1,579 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>New project design</title>
+    <!-- tailwind css and desysi ui link -->
+     <link href="https://cdn.jsdelivr.net/npm/daisyui@4.6.0/dist/full.min.css" rel="stylesheet" type="text/css" />
+     <script src="https://cdn.tailwindcss.com"></script>
+     <!-- favicon link  -->
+     <link rel="shortcut icon" href="Images/10.png" type="image/x-icon">
+
+</head>
+<body>
+     <div class="container mx-[10%] py-10">
+        <div class="navbar bg-base-100 w-full">
+          <div class="navbar-start w-1/4 lg:hidden sm:block">
+            <div class="dropdown">
+              <div tabindex="0" role="button" class="btn btn-ghost btn-circle">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h7" /></svg>
+              </div>
+              <ul tabindex="0" class="menu menu-sm dropdown-content  mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+                <li><a class="text-error">Home</a></li>
+                <li><a class="hover:text-error cursor-pointer">Portfolio</a></li>
+                <li><a class="hover:text-error cursor-pointer">About</a></li>
+                <li><a class="hover:text-error cursor-pointer">Blog</a></li>
+                <li><a class="hover:text-error cursor-pointer">Contact</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="navbar-center lg:flex-1 ">
+            <a class=" cursor-pointer font-bold text-2xl   ">Hockey<span class="text-error lg:text-3xl">'</span>s</a>
+          </div>
+           <div class="lg:flex-1 max-[676px]:hidden">
+              <ul  class=" flex justify-between gap-8 text-lg">
+                <li><a class="text-error">Home</a></li>
+                <li><a class="hover:text-error cursor-pointer">Portfolio</a></li>
+                <li><a class="hover:text-error cursor-pointer">About</a></li>
+                <li><a class="hover:text-error cursor-pointer">Blog</a></li>
+                <li><a class="hover:text-error cursor-pointer">Contact</a></li>
+              </ul>
+           </div>
+          <div class="navbar-end flex-1">
+            <button class="search px-4">
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" /></svg>
+            </button>
+            <button class="btn btn-error capitalize text-white lg:text-lg sm:text-md">
+             Get Ticket
+            </button>
+          </div>
+        </div>
+     </div>
+     <!-- ------------------------slider section design-------------------------------  -->
+     
+    <!-- ----------------progresbar section design start----------------------------------- -->
+    <div class="container mx-[10%] my-[5%]">
+        <div class="row-1 text-center sm:px-10 lg:px-[20%] my-[5%] py-[2%] border-y-[1px] border-slate-600 border-dotted w-full">
+            <h1 class="text-4xl text-black my-2 font-bold capitalize">Professionals Hockys clubs</h1>
+            <p class="py-6">The FIH has set no requirements or limitations on the size of the competition. The 1971 Cup included only ten nations, the smallest World Cup. The 1978 Cup featured fourteen nations. The 2002, 2018 and 2023 Cups featured sixteen nations. The remaining 10 World Cups have featured 12 nations. asperiores?</p>
+        </div>
+        <div class="row-2 lg:flex justify-center gap-4 items-center text-center">
+            <div class="col-1">
+                <div class="radial-progress text-error text-3xl my-6" style="--value:95; --size:10rem; --thickness: 15px;" role="progressbar">95%</div>
+                <h1 class="text-black font-bold text-3xl capitalize">Player Facility</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus repudiandae eius laboriosam fugit dolores qui?</p>
+            </div>
+            <div class="col-1">
+                <div class="radial-progress text-info text-3xl my-6" style="--value:85; --size:10rem; --thickness: 15px;" role="progressbar">85%</div>
+                <h1 class="text-black font-bold text-3xl capitalize">Experienced couch</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus repudiandae eius laboriosam fugit dolores qui?</p>
+            </div>
+            <div class="col-1">
+                <div class="radial-progress text-warning text-3xl my-6" style="--value:75; --size:10rem; --thickness: 15px;" role="progressbar">75%</div>
+                <h1 class="text-black font-bold text-3xl capitalize">Senior Player</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus repudiandae eius laboriosam fugit dolores qui?</p>
+            </div>
+            <div class="col-1">
+                <div class="radial-progress text-success text-3xl my-6" style="--value:89; --size:10rem; --thickness: 15px;" role="progressbar">89%</div>
+                <h1 class="text-black font-bold text-3xl capitalize">Junior Player</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus repudiandae eius laboriosam fugit dolores qui?</p>
+            </div>
+        </div>
+    </div>
+    <!-- -----------------programing section desing------------------------ -->
+    <div class="container mx-[10%] my-[5%]">
+        <div class="row-1 text-center sm:px-10 lg:px-[20%] my-[5%] py-[2%] border-y-[1px] border-slate-600 border-dotted w-full">
+            <h1 class="text-4xl text-black my-2 font-bold capitalize">Program Section</h1>
+            <p class="py-6">The FIH has set no requirements or limitations on the size of the competition. The 1971 Cup included only ten nations, the smallest World Cup. The 1978 Cup featured fourteen nations. The 2002, 2018 and 2023 Cups featured sixteen nations. The remaining 10 World Cups have featured 12 nations.asperiores?</p>
+        </div>
+    
+        <div class="row-2 lg:flex gap-4 ">
+            <div class="col-1 flex items-end text-white px-7 h-[50vh] py-[5%] bg-cover bg-no-repeat bg-center rounded-2xl bg-gradient-to-t from-black" style="background-image: url(Images/2.png);">
+                <div>
+                    <h1 class="text-4xl  my-2 font-bold capitalize">Junior Programer</h1>
+                    <p class="py-4">The FIH has set no requirements or limitations on the size of the competition. The 1971 Cup included only ten nations, the smallest World Cup. The 1978 Cup featured fourteen nations. The 2002, 2018 and 2023 Cups featured sixteen nations. The remaining 10 World Cups have featured 12 nations.</p>
+                    <div class="btn btn-error text-white capitalize text-xl">Registration Now!</div>
+                </div>
+            </div>
+            <div class="col-2 flex items-end text-white px-7 bg-center bg-cover bg-no-repeat rounded-3xl h-[50vh] py-[5%] bg-gradient-to-t from-black" style="background-image: url(Images/3.png);">
+                <div>
+                    <h1 class="text-4xl my-2 font-bold capitalize">Junior Programer</h1>
+                    <p class="py-4">The FIH has set no requirements or limitations on the size of the competition. The 1971 Cup included only ten nations, the smallest World Cup. The 1978 Cup featured fourteen nations. The 2002, 2018 and 2023 Cups featured sixteen nations. The remaining 10 World Cups have featured 12 nations.</p>
+                    <div class="btn btn-error text-white capitalize text-xl">Registration Now!</div>
+                </div>
+            </div>
+        </div>  
+        <div class="row-3">
+            <div class="col-3 flex items-end text-white px-7 mt-6 bg-center bg-cover bg-no-repeat rounded-3xl h-[50vh] py-[5%]" style="background-image: url(Images/4.png);">
+                <div class="lg:pr-[40%]">
+                    <h1 class="text-4xl my-2 font-bold capitalize">Junior Programer</h1>
+                    <p class="py-4">The FIH has set no requirements or limitations on the size of the competition. The 1971 Cup included only ten nations, the smallest World Cup. The 1978 Cup featured fourteen nations. The 2002, 2018 and 2023 Cups featured sixteen nations. The remaining 10 World Cups have featured 12 nations.!</p>
+                    <div class="btn btn-error text-white capitalize text-xl">Registration Now!</div>
+                </div>
+            </div>
+        </div>      
+    </div>
+    <!-- -----------------------programing section end----------------------------- -->
+    <!-- ------------------ product section desing-------------------------------------------- -->
+    <div class="container mx-[10%]">
+        <div class="row-1 text-center sm:px-10 lg:px-[20%] my-[5%] py-[2%] border-y-[1px] border-slate-600 border-dotted w-full">
+            <h1 class="text-4xl text-black my-2 font-bold capitalize">Our New Products</h1>
+            <p class="py-6 ">Tune in to the Make it Big Podcast — our thought leadership audio series for retailers, entrepreneurs and ecommerce professionals.You'll get expert insights, strategies and tactics to help grow your business.</p>
+        </div>
+        <div class="row-2 lg:grid lg:grid-cols-2 gap-6">
+          <div class="col-1 lg:flex gap-4 shadow p-4 items-center">
+              <div class="subcol lg:w-1/3">
+                <img src="Images/5.png" alt="" class="w-full">
+              </div>
+              <div class="text-box lg:w-2/3 ">
+                  <div class="logo flex gap-4">
+                      <div class="star-box flex gap-2">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill: rgb(243, 134, 9);transform: ;msFilter:;"><path d="M21.947 9.179a1.001 1.001 0 0 0-.868-.676l-5.701-.453-2.467-5.461a.998.998 0 0 0-1.822-.001L8.622 8.05l-5.701.453a1 1 0 0 0-.619 1.713l4.213 4.107-1.49 6.452a1 1 0 0 0 1.53 1.057L12 18.202l5.445 3.63a1.001 1.001 0 0 0 1.517-1.106l-1.829-6.4 4.536-4.082c.297-.268.406-.686.278-1.065z"></path></svg>
+                        <p>5.0</p>
+                      </div>
+                      <div class="eye-box flex gap-2">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                          <path stroke-linecap="round" stroke-linejoin="round" d="M2.036 12.322a1.012 1.012 0 0 1 0-.639C3.423 7.51 7.36 4.5 12 4.5c4.638 0 8.573 3.007 9.963 7.178.07.207.07.431 0 .639C20.577 16.49 16.64 19.5 12 19.5c-4.638 0-8.573-3.007-9.963-7.178Z" />
+                          <path stroke-linecap="round" stroke-linejoin="round" d="M15 12a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z" />
+                        </svg>
+                        <p>20</p>
+                      </div>
+                      <div class="heart-box flex gap-2">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                          <path stroke-linecap="round" stroke-linejoin="round" d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12Z" />
+                        </svg>
+                        <p>200</p>
+                      </div>
+                  </div>
+                  <h1 class="text-2xl font-bold">World cup Flages footbals</h1>
+                  <p class="py-2">In this narrative, every sentence is a brushstroke, painting a vivid picture of the human condition. Whether it's the elegance of simplicity or the complexity of profound</p>
+                  <div class="price-box flex gap-4">
+                    <h1 class="text-2xl text-error">Price-$24.00</h1>
+                      <div class="card-box flex items-center">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill: rgba(0, 0, 0, 1);transform: ;msFilter:;"><path d="M21 4H2v2h2.3l3.28 9a3 3 0 0 0 2.82 2H19v-2h-8.6a1 1 0 0 1-.94-.66L9 13h9.28a2 2 0 0 0 1.92-1.45L22 5.27A1 1 0 0 0 21.27 4 .84.84 0 0 0 21 4zm-2.75 7h-10L6.43 6h13.24z"></path><circle cx="10.5" cy="19.5" r="1.5"></circle><circle cx="16.5" cy="19.5" r="1.5"></circle></svg>
+                        <p>Delivery Free: Free</p>
+                      </div>
+                  </div>
+              </div>
+            </div>
+          <div class="col-1 lg:flex gap-4 shadow p-4 items-center">
+              <div class="subcol lg:w-1/3">
+                <img src="Images/6.png" alt="" class="w-full">
+              </div>
+              <div class="text-box lg:w-2/3 ">
+                  <div class="logo flex gap-4">
+                      <div class="star-box flex gap-2">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill: rgb(243, 134, 9);transform: ;msFilter:;"><path d="M21.947 9.179a1.001 1.001 0 0 0-.868-.676l-5.701-.453-2.467-5.461a.998.998 0 0 0-1.822-.001L8.622 8.05l-5.701.453a1 1 0 0 0-.619 1.713l4.213 4.107-1.49 6.452a1 1 0 0 0 1.53 1.057L12 18.202l5.445 3.63a1.001 1.001 0 0 0 1.517-1.106l-1.829-6.4 4.536-4.082c.297-.268.406-.686.278-1.065z"></path></svg>
+                        <p>5.0</p>
+                      </div>
+                      <div class="eye-box flex gap-2">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                          <path stroke-linecap="round" stroke-linejoin="round" d="M2.036 12.322a1.012 1.012 0 0 1 0-.639C3.423 7.51 7.36 4.5 12 4.5c4.638 0 8.573 3.007 9.963 7.178.07.207.07.431 0 .639C20.577 16.49 16.64 19.5 12 19.5c-4.638 0-8.573-3.007-9.963-7.178Z" />
+                          <path stroke-linecap="round" stroke-linejoin="round" d="M15 12a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z" />
+                        </svg>
+                        <p>20</p>
+                      </div>
+                      <div class="heart-box flex gap-2">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                          <path stroke-linecap="round" stroke-linejoin="round" d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12Z" />
+                        </svg>
+                        <p>200</p>
+                      </div>
+                  </div>
+                  <h1 class="text-2xl font-bold">World cup Flages footbals</h1>
+                  <p class="py-2 ">In this narrative, every sentence is a brushstroke, painting a vivid picture of the human condition. Whether it's the elegance of simplicity or the complexity of profound</p>
+                  <div class="price-box flex gap-4">
+                    <h1 class="text-2xl text-error">Price-$24.00</h1>
+                      <div class="card-box flex items-center">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill: rgba(0, 0, 0, 1);transform: ;msFilter:;"><path d="M21 4H2v2h2.3l3.28 9a3 3 0 0 0 2.82 2H19v-2h-8.6a1 1 0 0 1-.94-.66L9 13h9.28a2 2 0 0 0 1.92-1.45L22 5.27A1 1 0 0 0 21.27 4 .84.84 0 0 0 21 4zm-2.75 7h-10L6.43 6h13.24z"></path><circle cx="10.5" cy="19.5" r="1.5"></circle><circle cx="16.5" cy="19.5" r="1.5"></circle></svg>
+                        <p>Delivery Free: Free</p>
+                      </div>
+                  </div>
+              </div>
+            </div>
+          <div class="col-1 lg:flex gap-4 shadow p-4 items-center">
+              <div class="subcol lg:w-1/3">
+                <img src="Images/7.png" alt="" class="w-full">
+              </div>
+              <div class="text-box lg:w-2/3">
+                  <div class="logo flex gap-4">
+                      <div class="star-box flex gap-2">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill: rgb(243, 134, 9);transform: ;msFilter:;"><path d="M21.947 9.179a1.001 1.001 0 0 0-.868-.676l-5.701-.453-2.467-5.461a.998.998 0 0 0-1.822-.001L8.622 8.05l-5.701.453a1 1 0 0 0-.619 1.713l4.213 4.107-1.49 6.452a1 1 0 0 0 1.53 1.057L12 18.202l5.445 3.63a1.001 1.001 0 0 0 1.517-1.106l-1.829-6.4 4.536-4.082c.297-.268.406-.686.278-1.065z"></path></svg>
+                        <p>5.0</p>
+                      </div>
+                      <div class="eye-box flex gap-2">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                          <path stroke-linecap="round" stroke-linejoin="round" d="M2.036 12.322a1.012 1.012 0 0 1 0-.639C3.423 7.51 7.36 4.5 12 4.5c4.638 0 8.573 3.007 9.963 7.178.07.207.07.431 0 .639C20.577 16.49 16.64 19.5 12 19.5c-4.638 0-8.573-3.007-9.963-7.178Z" />
+                          <path stroke-linecap="round" stroke-linejoin="round" d="M15 12a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z" />
+                        </svg>
+                        <p>20</p>
+                      </div>
+                      <div class="heart-box flex gap-2">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                          <path stroke-linecap="round" stroke-linejoin="round" d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12Z" />
+                        </svg>
+                        <p>200</p>
+                      </div>
+                  </div>
+                  <h1 class="text-2xl font-bold">World cup Flages footbals</h1>
+                  <p class="py-2 ">In this narrative, every sentence is a brushstroke, painting a vivid picture of the human condition. Whether it's the elegance of simplicity or the complexity of profound</p>
+                  <div class="price-box flex gap-4">
+                    <h1 class="text-2xl text-error">Price-$24.00</h1>
+                      <div class="card-box flex items-center">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill: rgba(0, 0, 0, 1);transform: ;msFilter:;"><path d="M21 4H2v2h2.3l3.28 9a3 3 0 0 0 2.82 2H19v-2h-8.6a1 1 0 0 1-.94-.66L9 13h9.28a2 2 0 0 0 1.92-1.45L22 5.27A1 1 0 0 0 21.27 4 .84.84 0 0 0 21 4zm-2.75 7h-10L6.43 6h13.24z"></path><circle cx="10.5" cy="19.5" r="1.5"></circle><circle cx="16.5" cy="19.5" r="1.5"></circle></svg>
+                        <p>Delivery Free: Free</p>
+                      </div>
+                  </div>
+              </div>
+            </div>
+          <div class="col-1 lg:flex gap-4 shadow p-4 items-center">
+              <div class="subcol lg:w-1/3">
+                <img src="Images/8.png" alt="" class="w-full">
+              </div>
+              <div class="text-box lg:w-2/3 ">
+                  <div class="logo flex gap-4">
+                      <div class="star-box flex gap-2">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill: rgb(243, 134, 9);transform: ;msFilter:;"><path d="M21.947 9.179a1.001 1.001 0 0 0-.868-.676l-5.701-.453-2.467-5.461a.998.998 0 0 0-1.822-.001L8.622 8.05l-5.701.453a1 1 0 0 0-.619 1.713l4.213 4.107-1.49 6.452a1 1 0 0 0 1.53 1.057L12 18.202l5.445 3.63a1.001 1.001 0 0 0 1.517-1.106l-1.829-6.4 4.536-4.082c.297-.268.406-.686.278-1.065z"></path></svg>
+                        <p>5.0</p>
+                      </div>
+                      <div class="eye-box flex gap-2">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                          <path stroke-linecap="round" stroke-linejoin="round" d="M2.036 12.322a1.012 1.012 0 0 1 0-.639C3.423 7.51 7.36 4.5 12 4.5c4.638 0 8.573 3.007 9.963 7.178.07.207.07.431 0 .639C20.577 16.49 16.64 19.5 12 19.5c-4.638 0-8.573-3.007-9.963-7.178Z" />
+                          <path stroke-linecap="round" stroke-linejoin="round" d="M15 12a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z" />
+                        </svg>
+                        <p>20</p>
+                      </div>
+                      <div class="heart-box flex gap-2">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                          <path stroke-linecap="round" stroke-linejoin="round" d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12Z" />
+                        </svg>
+                        <p>200</p>
+                      </div>
+                  </div>
+                  <h1 class="text-2xl font-bold">World cup Flages footbals</h1>
+                  <p class="py-2">In this narrative, every sentence is a brushstroke, painting a vivid picture of the human condition. Whether it's the elegance of simplicity or the complexity of profound</p>
+                  <div class="price-box flex gap-4">
+                    <h1 class="text-2xl text-error">Price-$24.00</h1>
+                      <div class="card-box flex items-center">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill: rgba(0, 0, 0, 1);transform: ;msFilter:;"><path d="M21 4H2v2h2.3l3.28 9a3 3 0 0 0 2.82 2H19v-2h-8.6a1 1 0 0 1-.94-.66L9 13h9.28a2 2 0 0 0 1.92-1.45L22 5.27A1 1 0 0 0 21.27 4 .84.84 0 0 0 21 4zm-2.75 7h-10L6.43 6h13.24z"></path><circle cx="10.5" cy="19.5" r="1.5"></circle><circle cx="16.5" cy="19.5" r="1.5"></circle></svg>
+                        <p>Delivery Free: Free</p>
+                      </div>
+                  </div>
+              </div>
+            </div>
+          <div class="col-1 lg:flex gap-4 shadow p-4 items-center">
+              <div class="subcol lg:w-1/3">
+                <img class="w-full" src="Images/9.png" alt="" class="w-full">
+              </div>
+              <div class="text-box lg:w-2/3 ">
+                  <div class="logo flex gap-4">
+                      <div class="star-box flex gap-2">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill: rgb(243, 134, 9);transform: ;msFilter:;"><path d="M21.947 9.179a1.001 1.001 0 0 0-.868-.676l-5.701-.453-2.467-5.461a.998.998 0 0 0-1.822-.001L8.622 8.05l-5.701.453a1 1 0 0 0-.619 1.713l4.213 4.107-1.49 6.452a1 1 0 0 0 1.53 1.057L12 18.202l5.445 3.63a1.001 1.001 0 0 0 1.517-1.106l-1.829-6.4 4.536-4.082c.297-.268.406-.686.278-1.065z"></path></svg>
+                        <p>5.0</p>
+                      </div>
+                      <div class="eye-box flex gap-2">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                          <path stroke-linecap="round" stroke-linejoin="round" d="M2.036 12.322a1.012 1.012 0 0 1 0-.639C3.423 7.51 7.36 4.5 12 4.5c4.638 0 8.573 3.007 9.963 7.178.07.207.07.431 0 .639C20.577 16.49 16.64 19.5 12 19.5c-4.638 0-8.573-3.007-9.963-7.178Z" />
+                          <path stroke-linecap="round" stroke-linejoin="round" d="M15 12a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z" />
+                        </svg>
+                        <p>20</p>
+                      </div>
+                      <div class="heart-box flex gap-2">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                          <path stroke-linecap="round" stroke-linejoin="round" d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12Z" />
+                        </svg>
+                        <p>200</p>
+                      </div>
+                  </div>
+                  <h1 class="text-2xl font-bold">World cup Flages footbals</h1>
+                  <p class="py-2">In this narrative, every sentence is a brushstroke, painting a vivid picture of the human condition. Whether it's the elegance of simplicity or the complexity of profound</p>
+                  <div class="price-box flex gap-4">
+                    <h1 class="text-2xl text-error">Price-$24.00</h1>
+                      <div class="card-box flex items-center">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill: rgba(0, 0, 0, 1);transform: ;msFilter:;"><path d="M21 4H2v2h2.3l3.28 9a3 3 0 0 0 2.82 2H19v-2h-8.6a1 1 0 0 1-.94-.66L9 13h9.28a2 2 0 0 0 1.92-1.45L22 5.27A1 1 0 0 0 21.27 4 .84.84 0 0 0 21 4zm-2.75 7h-10L6.43 6h13.24z"></path><circle cx="10.5" cy="19.5" r="1.5"></circle><circle cx="16.5" cy="19.5" r="1.5"></circle></svg>
+                        <p>Delivery Free: Free</p>
+                      </div>
+                  </div>
+              </div>
+            </div>
+          <div class="col-1 lg:flex gap-4 shadow p-4 items-center">
+              <div class="subcol lg:w-1/3">
+                <img src="Images/10.png" alt="" class="w-full">
+              </div>
+              <div class="text-box lg:w-2/3 ">
+                  <div class="logo flex gap-4">
+                      <div class="star-box flex gap-2">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill: rgb(243, 134, 9);transform: ;msFilter:;"><path d="M21.947 9.179a1.001 1.001 0 0 0-.868-.676l-5.701-.453-2.467-5.461a.998.998 0 0 0-1.822-.001L8.622 8.05l-5.701.453a1 1 0 0 0-.619 1.713l4.213 4.107-1.49 6.452a1 1 0 0 0 1.53 1.057L12 18.202l5.445 3.63a1.001 1.001 0 0 0 1.517-1.106l-1.829-6.4 4.536-4.082c.297-.268.406-.686.278-1.065z"></path></svg>
+                        <p>5.0</p>
+                      </div>
+                      <div class="eye-box flex gap-2">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                          <path stroke-linecap="round" stroke-linejoin="round" d="M2.036 12.322a1.012 1.012 0 0 1 0-.639C3.423 7.51 7.36 4.5 12 4.5c4.638 0 8.573 3.007 9.963 7.178.07.207.07.431 0 .639C20.577 16.49 16.64 19.5 12 19.5c-4.638 0-8.573-3.007-9.963-7.178Z" />
+                          <path stroke-linecap="round" stroke-linejoin="round" d="M15 12a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z" />
+                        </svg>
+                        <p>20</p>
+                      </div>
+                      <div class="heart-box flex gap-2">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                          <path stroke-linecap="round" stroke-linejoin="round" d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12Z" />
+                        </svg>
+                        <p>200</p>
+                      </div>
+                  </div>
+                  <h1 class="text-2xl font-bold">World cup Flages footbals</h1>
+                  <p class="py-2">In this narrative, every sentence is a brushstroke, painting a vivid picture of the human condition. Whether it's the elegance of simplicity or the complexity of profound</p>
+                  <div class="price-box flex gap-4">
+                    <h1 class="text-2xl text-error">Price-$24.00</h1>
+                      <div class="card-box flex items-center">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill: rgba(0, 0, 0, 1);transform: ;msFilter:;"><path d="M21 4H2v2h2.3l3.28 9a3 3 0 0 0 2.82 2H19v-2h-8.6a1 1 0 0 1-.94-.66L9 13h9.28a2 2 0 0 0 1.92-1.45L22 5.27A1 1 0 0 0 21.27 4 .84.84 0 0 0 21 4zm-2.75 7h-10L6.43 6h13.24z"></path><circle cx="10.5" cy="19.5" r="1.5"></circle><circle cx="16.5" cy="19.5" r="1.5"></circle></svg>
+                        <p>Delivery Free: Free</p>
+                      </div>
+                  </div>
+              </div>
+            </div>
+         </div>
+    </div>
+    <!-- ------------------------------production section end-------------------------- -->
+    <!-- -------------------------------FAQ section start--------------------------------------- -->
+    <div class="container mx-[10%] my-[5%]">
+        <div class="row-1 text-center sm:px-10 lg:px-[20%] my-[5%] py-[2%] border-y-[1px] border-slate-600 border-dotted w-full">
+            <h1 class="text-4xl text-black my-2 font-bold capitalize">Clients Questions</h1>
+            <p class="py-6">Tune in to the Make it Big Podcast — our thought leadership audio series for retailers, entrepreneurs and ecommerce professionals. You'll get expert insights, strategies and tactics to help grow your business.</p>
+        </div>
+        <div class="row-2 lg:flex gap-4 shadow items-center">
+            <div class="col-1 w-full p-6">
+                <img class="object-cover w-full" src="Images/11.png" alt="">
+            </div>
+            <div class="col-2 w-full p-6">
+                <div class="join join-vertical w-full">
+                    <div class="collapse collapse-plus join-item border border-base-300">
+                      <input type="radio" name="my-accordion-4" /> 
+                      <div class="collapse-title text-3xl font-medium capitalize">
+                        Private lessons
+                      </div>
+                      <div class="collapse-content"> 
+                        <p>These product details can be one sentence, a short paragraph or bulleted. They can be serious, funny or quirky. They can be located right next to or underneath product titles and product images. They can be scannable selling points or have strong readability.</p>
+                      </div>
+                    </div>
+                    <div class="collapse collapse-plus join-item border border-base-300">
+                      <input type="radio" name="my-accordion-4" /> 
+                      <div class="collapse-title text-3xl font-medium capitalize">
+                        Player description
+                      </div>
+                      <div class="collapse-content"> 
+                        <p>These product details can be one sentence, a short paragraph or bulleted. They can be serious, funny or quirky. They can be located right next to or underneath product titles and product images. They can be scannable selling points or have strong readability.</p>
+                      </div>
+                    </div>
+                    <div class="collapse collapse-plus join-item border border-base-300">
+                      <input type="radio" name="my-accordion-4" /> 
+                      <div class="collapse-title text-3xl font-medium capitalize">
+                        Experience details
+                      </div>
+                      <div class="collapse-content"> 
+                        <p>These product details can be one sentence, a short paragraph or bulleted. They can be serious, funny or quirky. They can be located right next to or underneath product titles and product images. They can be scannable selling points or have strong readability.</p>
+                      </div>
+                    </div>
+                    <div class="collapse collapse-plus join-item border border-base-300">
+                      <input type="radio" name="my-accordion-4" /> 
+                      <div class="collapse-title text-3xl font-medium capitalize">
+                        Hocky Couch list
+                      </div>
+                      <div class="collapse-content"> 
+                        <p>These product details can be one sentence, a short paragraph or bulleted. They can be serious, funny or quirky. They can be located right next to or underneath product titles and product images. They can be scannable selling points or have strong readability.</p>
+                      </div>
+                    </div>
+                    <div class="collapse collapse-plus join-item border border-base-300">
+                      <input type="radio" name="my-accordion-4" /> 
+                      <div class="collapse-title text-3xl font-medium capitalize">
+                        Hocky 
+                      </div>
+                      <div class="collapse-content"> 
+                        <p>These product details can be one sentence, a short paragraph or bulleted. They can be serious, funny or quirky. They can be located right next to or underneath product titles and product images. They can be scannable selling points or have strong readability.</p>
+                      </div>
+                    </div>
+                    <div class="collapse collapse-plus join-item border border-base-300">
+                      <input type="radio" name="my-accordion-4" /> 
+                      <div class="collapse-title text-3xl font-medium capitalize">
+                        Booking
+                      </div>
+                      <div class="collapse-content"> 
+                        <p>These product details can be one sentence, a short paragraph or bulleted. They can be serious, funny or quirky. They can be located right next to or underneath product titles and product images. They can be scannable selling points or have strong readability.</p>
+                      </div>
+                    </div>
+                    <div class="collapse collapse-plus join-item border border-base-300">
+                      <input type="radio" name="my-accordion-4" /> 
+                      <div class="collapse-title text-3xl font-medium capitalize">
+                        Pricing
+                      </div>
+                      <div class="collapse-content"> 
+                        <p>These product details can be one sentence, a short paragraph or bulleted. They can be serious, funny or quirky. They can be located right next to or underneath product titles and product images. They can be scannable selling points or have strong readability.</p>
+                      </div>
+                    </div>
+                    <div class="collapse collapse-plus join-item border border-base-300">
+                      <input type="radio" name="my-accordion-4" /> 
+                      <div class="collapse-title text-3xl font-medium capitalize">
+                        Optionals
+                      </div>
+                      <div class="collapse-content"> 
+                        <p>These product details can be one sentence, a short paragraph or bulleted. They can be serious, funny or quirky. They can be located right next to or underneath product titles and product images. They can be scannable selling points or have strong readability.</p>
+                      </div>
+                    </div>
+                    <div class="collapse collapse-plus join-item border border-base-300">
+                      <input type="radio" name="my-accordion-4" /> 
+                      <div class="collapse-title text-3xl font-medium capitalize">
+                        Best details
+                      </div>
+                      <div class="collapse-content"> 
+                        <p>These product details can be one sentence, a short paragraph or bulleted. They can be serious, funny or quirky. They can be located right next to or underneath product titles and product images. They can be scannable selling points or have strong readability.</p>
+                      </div>
+                    </div>
+                  </div>
+            </div>
+        </div>
+    </div>
+    <!-- -------------------------------------FAQ section end-------------------------------- -->
+    <!-- --------------------------------------Get in touch section start-----------------------------  -->
+    <div class="container mx-[10%] my-[5%]">
+        <div class="row-1 text-center sm:px-10 lg:px-[20%] my-[5%] py-[2%] border-y-[1px] border-slate-600 border-dotted w-full">
+            <h1 class="text-4xl text-black my-2 font-bold capitalize">Get in Touch</h1>
+            <p class="py-6">Tune in to the Make it Big Podcast — our thought leadership audio series for retailers, entrepreneurs and ecommerce professionals. You'll get expert insights, strategies and tactics to help grow your business.</p>
+        </div>
+       <div class="row-2 lg:flex items-center">
+          <div class="col-1 lg:w-2/5">
+                <div class="sub-col-1 bg-[#F8FDF0] p-10 my-2 rounded-lg">
+                  <img class="py-8"  src="Images/Group 1171275317.png" alt="">
+                  <h1 class="text-2xl">Phone</h1>
+                  <p class="text-2xl font-bold">+88023453445343</p>
+                </div>
+                <div class="sub-col-1 bg-[#FEFBEF] p-10 my-2 rounded-lg">
+                  <img class="py-8"  src="Images/Group 1171275318.png" alt="">
+                  <h1 class="text-2xl">Email</h1>
+                  <p class="text-2xl font-bold">support12@gmail.com</p>
+                </div>
+                <div class="sub-col-1 bg-[#EFF5FD] p-10 my-2 rounded-lg">
+                  <img class="py-8" src="Images/Group 1171275321.png" alt="">
+                  <h1 class="text-2xl">Lucation</h1>
+                  <p class="text-2xl font-bold">Dhaka,Khilkhat,Nikunjo-2</p>
+                </div>
+          </div>
+          <div class="col-2 lg:w-3/5 lg:p-10">
+             <form action="">
+              <div class="sub-col lg:flex  gap-4">
+                <div class="name-box w-full">
+                  <label for="nam" class="text-2xl font-bold capitalize ">Your Name</label>
+                  <br>
+                  <br>
+                  <input id="nam" class="input w-full bg-[#F8F8F8]" type="text" placeholder="Your Name">
+                </div>
+                <div class="email-box w-full">
+                  <label for="eml" class="text-2xl font-bold capitalize">Your Email</label>
+                  <br>
+                  <br>
+                  <input id="eml" class="input w-full bg-[#F8F8F8]" type="email" placeholder="Your Email">
+                </div>
+              </div>
+              <div class="sub-col lg:flex gap-4 mt-10">
+                <div class="subject-box w-full">
+                  <label for="sb" class="text-2xl font-bold capitalize">Subject</label>
+                  <br>
+                  <br>
+                  <input id="sb" class="input w-full bg-[#F8F8F8]" type="text" placeholder="Enter Subject">
+                </div>
+                <div class="email-box w-full">
+                  <label for="pn" class="text-2xl font-bold capitalize">Phone Number</label>
+                  <br>
+                  <br>
+                  <input id="pn" class="input w-full bg-[#F8F8F8]" type="text" placeholder="Your Phone">
+                </div>
+              </div>
+              <div class="sub-col-text-area mt-10">
+                <div class="subject-box w-full">
+                  <label for="messag" class="text-2xl font-bold capitalize">Message</label>
+                  <br>
+                  <br>
+                  <textarea class="textarea w-full bg-[#F8F8F8]" id="message" cols="60" rows="10" placeholder="Message"></textarea>
+                </div>
+              </div>
+              <div class="submit-btn mt-6">
+                <div class="btn capitalize text-white btn-error w-full text-2xl">Send Message</div>
+              </div>
+             </form>
+          </div>
+       </div>
+        <div class="row-3 bg-[#F8F8F8] rounded-md py-10 my-10">
+            <div>
+                <h1 class="text-3xl font-bold capitalize text-black text-center">Social Media</h1>
+                <div class="social-icon flex justify-center items-center gap-6 pt-5">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill: rgba(0, 0, 0, 1);transform: ;msFilter:;"><path d="M12.001 2.002c-5.522 0-9.999 4.477-9.999 9.999 0 4.99 3.656 9.126 8.437 9.879v-6.988h-2.54v-2.891h2.54V9.798c0-2.508 1.493-3.891 3.776-3.891 1.094 0 2.24.195 2.24.195v2.459h-1.264c-1.24 0-1.628.772-1.628 1.563v1.875h2.771l-.443 2.891h-2.328v6.988C18.344 21.129 22 16.992 22 12.001c0-5.522-4.477-9.999-9.999-9.999z"></path>
+                    </svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" class="fill-current"><path d="M24 4.557c-.883.392-1.832.656-2.828.775 1.017-.609 1.798-1.574 2.165-2.724-.951.564-2.005.974-3.127 1.195-.897-.957-2.178-1.555-3.594-1.555-3.179 0-5.515 2.966-4.797 6.045-4.091-.205-7.719-2.165-10.148-5.144-1.29 2.213-.669 5.108 1.523 6.574-.806-.026-1.566-.247-2.229-.616-.054 2.281 1.581 4.415 3.949 4.89-.693.188-1.452.232-2.224.084.626 1.956 2.444 3.379 4.6 3.419-2.07 1.623-4.678 2.348-7.29 2.04 2.179 1.397 4.768 2.212 7.548 2.212 9.142 0 14.307-7.721 13.995-14.646.962-.695 1.797-1.562 2.457-2.549z"></path>
+                    </svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" class="fill-current"><path d="M19.615 3.184c-3.604-.246-11.631-.245-15.23 0-3.897.266-4.356 2.62-4.385 8.816.029 6.185.484 8.549 4.385 8.816 3.6.245 11.626.246 15.23 0 3.897-.266 4.356-2.62 4.385-8.816-.029-6.185-.484-8.549-4.385-8.816zm-10.615 12.816v-8l8 3.993-8 4.007z"></path>
+                    </svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" class="fill-current"><path d="M9 8h-3v4h3v12h5v-12h3.642l.358-4h-4v-1.667c0-.955.192-1.333 1.115-1.333h2.885v-5h-3.808c-3.596 0-5.192 1.583-5.192 4.615v3.385z"></path>
+                    </svg>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- --------------------------------------Get in touch section end-----------------------------  -->
+    <!-- -------------------------------footer section start-------------------------------  -->
+<div class="bg-black">
+    <div class="container mx-[10%] text-white sm:pr-10">
+        <div class=" row-1 lg:flex  justify-between items-center gap-6  py-[6%] ">
+            <div class="col-1 lg:w-1/3 ">
+                <h1 class="text-white font-bold capitalize text-3xl pb-4">Get In Touch</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis laboriosam mollitia incidunt unde, quaerat odit quam? Debitis laborum quod quibusdam amet molestias dolor officia repellat, ipsam mollitia. Omnis, adipisci culpa.</p>
+                <div class="email-box flex gap-4 py-4">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill: rgb(233, 10, 10);transform: ;msFilter:;"><path d="M20 4H4c-1.103 0-2 .897-2 2v12c0 1.103.897 2 2 2h16c1.103 0 2-.897 2-2V6c0-1.103-.897-2-2-2zm0 2v.511l-8 6.223-8-6.222V6h16zM4 18V9.044l7.386 5.745a.994.994 0 0 0 1.228 0L20 9.044 20.002 18H4z"></path></svg>
+                    <p>support@gmail.com</p>
+                </div>
+                <div class="phon-box flex  gap-4">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill: rgb(241, 14, 14);transform: ;msFilter:;"><path d="M17.707 12.293a.999.999 0 0 0-1.414 0l-1.594 1.594c-.739-.22-2.118-.72-2.992-1.594s-1.374-2.253-1.594-2.992l1.594-1.594a.999.999 0 0 0 0-1.414l-4-4a.999.999 0 0 0-1.414 0L3.581 5.005c-.38.38-.594.902-.586 1.435.023 1.424.4 6.37 4.298 10.268s8.844 4.274 10.269 4.298h.028c.528 0 1.027-.208 1.405-.586l2.712-2.712a.999.999 0 0 0 0-1.414l-4-4.001zm-.127 6.712c-1.248-.021-5.518-.356-8.873-3.712-3.366-3.366-3.692-7.651-3.712-8.874L7 4.414 9.586 7 8.293 8.293a1 1 0 0 0-.272.912c.024.115.611 2.842 2.271 4.502s4.387 2.247 4.502 2.271a.991.991 0 0 0 .912-.271L17 14.414 19.586 17l-2.006 2.005z"></path></svg>
+                    <p>(+88023433534343)</p>
+                </div>
+            </div>
+           <div class="col-4 lg:w-1/3 flex justify-between ">
+            <div class="col-2 lg:flex justify-center">
+              <div>
+                 <h1 class="font-bold text-white text-3xl  pb-2">Services</h1> 
+                 <ul class="capitalize" >
+                   <li>Digital Merketing</li>
+                   <li>Web development</li>
+                   <li>Graphics</li>
+                   <li>SEO</li>
+                   <li>Google Adsence</li>
+                 </ul>
+              </div>
+             </div> 
+             <div class="col-3 lg:w-1/3 lg:flex justify-center">
+               <div>
+                    <h1 class=" font-bold text-white text-3xl pb-2">Company</h1> 
+                     <ul class="capitalize">
+                         <li>About us</li>
+                         <li>leadership</li>
+                         <li>Carear</li>
+                         <li>Details</li>
+                         <li>Project</li>
+                     </ul>
+               </div>
+             </div> 
+           </div>
+            <div class="col-4 lg:flex justify-end ">
+              <div>
+                <h1 class="font-bold text-white text-3xl pb-3">Support</h1> 
+                <ul class="capitalize">
+                  <li>Help center</li>
+                  <li>FAQ</li>
+                  <li>Ticket support</li>
+                  <li>Contact us</li>
+                </ul>
+              </div>
+            </div> 
+      </div>
+    </div>
+</div>
+    <!-- -------------------------------------footer section end ----------------------------------  -->
+</body>
+</html>
